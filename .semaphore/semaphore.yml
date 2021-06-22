@@ -62,6 +62,7 @@ blocks:
             - cache restore
             - nvm install 14
             - cd ios
+            - ruby --version
             - pod install
             - cd ..
             # build and test
